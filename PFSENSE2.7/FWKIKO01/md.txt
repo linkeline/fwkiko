@@ -1,0 +1,62 @@
+
+
+Roteiro --PFSENSE
+
+wan1--DHCP
+wan2-- DHCP
+lan1-----------REDE para 512 dispitivios
+lan wifi ????
+
+
+----------Funcionalidades---------------------
+
+
+---IDS
+---IPS
+---Regras de firewall
+---NAT
+---Load Balance
+---Fail Over
+---Acesso remoto para manutenção via DDNS
+---Webfilter
+---Grupos de acessos local
+---Usuarios acesso
+---PERfil de web filter baixo - medio -alto
+---controle wifi ????
+
+
+
+
+
+CRiação de conta opendns 
+conta :tecnica@linkeline.com.br
+sena:Ch@pol1n
+
+criação de conta no cloud DNS
+conta:tecnica@linkeline.com.br
+senha:Ch@pol1n
+
+
+criação deconta no git hub:
+conta:tecnica@linkeline.com.br
+senha:Ch@pol1n
+
+
+
+cloud DDNS:
+
+
+FWKIKO01---Matriz
+chave: https://ipv4.cloudns.net/api/dynamicURL/?q=NzYzNDk4NDo1MDgwOTU1NDQ6NjA1MWJhNTE2NGJiZTY0NjJiZTA2M2JlNzk3MzI4Y2M4YTRkZTFmZDFkYzJiOTRlNDA3YjczOWM5ZmUxNjU0Zg
+
+RANGE DE IPS
+
+IP Address:	192.168.0.1
+Network Address:	192.168.0.0
+Usable Host IP Range:	192.168.0.1 - 192.168.1.254
+Broadcast Address:	192.168.1.255
+Total Number of Hosts:	512
+Number of Usable Hosts:	510
+Subnet Mask:	255.255.254.0
+
+
