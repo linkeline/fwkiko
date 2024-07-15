@@ -13,8 +13,9 @@
 
      --Endereço de Rede (Network Address): 192.168.0.0
      --Endereço de Broadcast (Broadcast Address): 192.168.1.255
-     --Faixa de Endereços Válidos (Host Addresses): De 192.168.0.1 a 192.168.1.254
-     --Máscara de Sub-rede (Subnet Mask): 255.255.254.0 (que é equivalente a /23)
+     --Faixa de Endereços Válidos (Host Addresses): De 192.168.0.1 a 192.168.0.254
+     --Máscara de Sub-rede (Subnet Mask): 255.255.254.255 (que é equivalente a /24)
+     --Endereço DHCP - De 192.168.0.100 a 192.168.0.254
      --Mudar gateway de equipamento de ip fixo.
 
 
@@ -48,6 +49,11 @@
   - autenticação depende de configuração de proxy nas maquinas
   - auetnticação depende  de criação dos usuarios e grupo
   - definição de grupos com autenticação local depende do mapeamento de ip.
+
+6.DDNS
+
+ -fwkiko02.linkeline.dns-dynamic.net
+ -https://ipv4.cloudns.net/api/dynamicURL/?q=NzYzNDk4NDo1MTAyMjY4Nzc6NGViODY2NTRiMGIwYTYwZWMyMDFlN2JjYmUzMzRhNjkxN2NmZTljZTNlMTJmNDI3NjA4YmFiNzQ3ZTNkNzI0MQ
   
   
   
